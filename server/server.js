@@ -20,7 +20,3 @@ server.on('error', (err) => {
 server.listen(8080, () => {
     console.log('server is ready');
 });
-
-app.get('/', (req, res) => {
-    res.send('<h1>Hello World</h1>')
-})
